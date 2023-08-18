@@ -6,7 +6,6 @@ const plusBtn = document.getElementById("plus");
 const minustBtn = document.getElementById("minus");
 let action = "+";
 
-// console.log(typeof sum);
 
 plusBtn.onclick = function () {
   action = "+";
@@ -35,3 +34,7 @@ submitBtn.onclick = function () {
   const result = computeNumbersWithAction(input1, input2, action);
   printResult(result);
 };
+
+
+
+
